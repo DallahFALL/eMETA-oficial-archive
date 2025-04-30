@@ -1,0 +1,8 @@
+To use this pack:
+
+1. Create a form on Tally matching the form_schema.json.
+2. Import make_scenario.json into Make (https://www.make.com).
+3. Configure your OpenAI and WhatsApp credentials.
+4. Test the flow.
+
+This will fully automate the user input > AI analysis > response flow.
