@@ -1,4 +1,22 @@
-Message : ajout redirection vers www.e-meta.app
+<!-- Fichier : index.html -->
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="refresh" content="0; URL='https://www.e-meta.app'" />
+    <script>
+      // Redirection JS au cas où le méta-tag échoue
+      if (window.location.hostname === "e-meta.app") {
+        window.location.href = "https://www.e-meta.app";
+      }
+    </script>
+    <title>Redirection e-META</title>
+  </head>
+  <body>
+    <p>Redirection en cours vers <a href="https://www.e-meta.app">www.e-meta.app</a>...</p>
+  </body>
+</html>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
