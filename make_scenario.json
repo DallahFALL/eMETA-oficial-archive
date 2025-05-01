@@ -1,1 +1,0 @@
-{"name": "eMETA Auto Route", "modules": ["Tally trigger", "OpenAI request", "Router", "Email", "WhatsApp"]}
