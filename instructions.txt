@@ -1,1 +1,20 @@
-Contenu de démonstration pour instructions.txt
+eMETA – Assistant IA Multilingue d’Aide à la Décision
+
+INSTALLATION SUR GITHUB PAGES
+
+1. Connectez-vous à votre compte GitHub.
+2. Créez ou accédez à un dépôt public (ex : eMETA-official-archive).
+3. Supprimez les anciens fichiers obsolètes :
+   - faq.html, apropos.html, contact.html (car déjà intégrés à index.html)
+   - anciens .css/.html qui ne sont plus appelés
+4. Glissez-déposez tout le contenu du dossier eMETA_Pro_Upload dans le dépôt (pas le ZIP lui-même).
+5. Assurez-vous de bien avoir :
+   - CNAME → contenant `e-meta.app`
+   - .nojekyll → fichier vide pour désactiver les traitements Jekyll
+6. Dans les paramètres GitHub :
+   - Allez dans *Pages* ou *Pages Web* du dépôt
+   - Sélectionnez la branche `main` avec racine `/root`
+   - Enregistrez
+7. Ouvrez https://e-meta.app → votre site est prêt 🎉
+
+Assistance : afall644@gmail.com / WhatsApp +221 78 260 72 12
