@@ -1,7 +1,7 @@
-*.zip
-*.tar.gz
-*.log
-node_modules/
-venv/
+# Fichiers et dossiers à ne pas traquer
 .DS_Store
-__pycache__/
+*.zip
+*.rar
+node_modules/
+*.log
+.env
