@@ -1,52 +1,44 @@
 
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 header {
-    background-color: #003366;
-    color: white;
-    padding: 10px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  background-color: #003366;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8em 1.5em;
 }
-.logo img {
-    height: 60px;
-    margin-left: 20px;
+.logo {
+  height: 40px;
 }
 nav ul {
-    list-style: none;
-    margin: 0;
-    padding-right: 30px;
-    display: flex;
+  list-style-type: none;
+  display: flex;
+  gap: 1em;
 }
-nav li {
-    margin-left: 20px;
+nav ul li a {
+  color: white;
+  text-decoration: none;
 }
-nav a {
-    color: white;
-    text-decoration: none;
-}
-.centered {
-    text-align: center;
-    margin: 40px;
-}
-.whatsapp-button {
-    background-color: #25D366;
-    color: white;
-    padding: 12px 20px;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 6px;
+main {
+  padding: 2em;
 }
 section {
-    padding: 30px;
+  margin-bottom: 3em;
+}
+.whatsapp-btn {
+  background-color: #25D366;
+  color: white;
+  padding: 0.7em 1.2em;
+  text-decoration: none;
+  border-radius: 5px;
 }
 footer {
-    background-color: #003366;
-    color: white;
-    text-align: center;
-    padding: 10px;
+  text-align: center;
+  padding: 1em;
+  background: #f0f0f0;
 }
