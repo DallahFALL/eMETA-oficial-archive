@@ -1,7 +1,0 @@
-✅ Dézippez ce dossier.
-✅ Ouvrez le fichier index.html dans un navigateur pour tester localement.
-✅ Téléversez tous les fichiers sur votre dépôt GitHub à la racine du dossier.
-✅ Activez GitHub Pages (branche: main, dossier: root).
-✅ Testez votre site sur https://e-meta.app
-
-Inclus : logo, favicon, style.css, instructions, page unique e-META.
