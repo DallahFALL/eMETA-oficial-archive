@@ -1,1 +1,52 @@
-Contenu de démonstration pour style.css
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #003366;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo img {
+    height: 60px;
+    margin-left: 20px;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding-right: 30px;
+    display: flex;
+}
+nav li {
+    margin-left: 20px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+.centered {
+    text-align: center;
+    margin: 40px;
+}
+.whatsapp-button {
+    background-color: #25D366;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+}
+section {
+    padding: 30px;
+}
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
