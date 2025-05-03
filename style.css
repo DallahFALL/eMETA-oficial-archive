@@ -46,3 +46,16 @@ footer {
   padding: 1em;
   background: #f0f0f0;
 }
+body {
+  font-family: Arial, sans-serif;
+  background: #fff;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
