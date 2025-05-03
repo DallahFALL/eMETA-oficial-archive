@@ -1,65 +1,72 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>e-META | Assistant IA de Décision</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>e-META – Assistant IA</title>
+  <link rel="stylesheet" href="style.css" />
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background: #fff;
       text-align: center;
     }
+    header img.logo {
+      width: 120px;
+      margin: 20px auto;
+      display: block;
+    }
+    header img.banner {
+      width: 100%;
+      height: auto;
+    }
     nav {
-      background-color: #f2f2f2;
-      padding: 15px;
+      background-color: #f0f0f0;
+      padding: 15px 0;
     }
     nav ul {
+      list-style: none;
       display: flex;
       justify-content: center;
-      list-style: none;
-      gap: 30px;
+      gap: 40px;
       padding: 0;
+      margin: 0;
     }
     nav a {
       text-decoration: none;
-      color: #000;
       font-weight: bold;
+      color: #333;
     }
-    img.logo {
-      max-height: 80px;
-      margin-top: 10px;
-    }
-    img.banner {
-      width: 100%;
-      max-height: 180px;
-      object-fit: cover;
+    section {
+      padding: 30px 15px;
+      max-width: 800px;
+      margin: 0 auto;
     }
     .whatsapp-btn {
       background-color: #25D366;
-      color: #fff;
-      padding: 12px 24px;
+      color: white;
       border: none;
-      border-radius: 5px;
+      padding: 14px 28px;
       font-size: 16px;
-      text-decoration: none;
-      display: inline-block;
+      border-radius: 6px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
       margin-top: 20px;
+      cursor: pointer;
     }
-    section {
-      padding: 20px;
-      text-align: left;
-      max-width: 800px;
-      margin: auto;
+    .whatsapp-btn:hover {
+      background-color: #1eb75d;
     }
   </style>
 </head>
 <body>
-  <img src="oficial-e-META-logo.png" alt="e-META Logo" class="logo">
-  <img src="banner.png" alt="Bannière e-META" class="banner">
+  <header>
+    <img src="oficial-e-META-logo.png" alt="e-META Logo" class="logo" />
+    <img src="banner.png" alt="Bandeau e-META" class="banner" />
+  </header>
 
   <nav>
     <ul>
@@ -69,13 +76,14 @@
       <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
-  <hr>
 
   <main>
     <section id="accueil">
       <h1>Bienvenue sur e-META</h1>
       <p>Votre assistant IA pour la prise de décision intelligente, multilingue, fluide et personnalisée.</p>
-      <a href="https://wa.me/221782060721" class="whatsapp-btn">Contacter via WhatsApp</a>
+      <a href="https://wa.me/221782067212" class="whatsapp-btn">
+        📲 Contacter via WhatsApp
+      </a>
     </section>
 
     <section id="faq">
@@ -93,14 +101,8 @@
 
     <section id="contact">
       <h2>Contact</h2>
-      <p>Walo Communication<br>
-        Email : walocom@orange.sn<br>
-        Tél : +221 77 644 43 46</p>
+      <p>Contactez-nous à l’adresse suivante : <strong>afall644@gmail.com</strong></p>
     </section>
   </main>
-
-  <footer>
-    <p>&copy; 2025 e-META. Tous droits réservés.</p>
-  </footer>
 </body>
 </html>
