@@ -9,10 +9,13 @@ header {
     background-color: #f4f4f4;
     padding: 20px 0;
 }
-.logo {
-    width: 120px;
-    height: auto;
-    margin-bottom: 10px;
+.logo-img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
 }
 .navbar {
     list-style: none;
