@@ -1,5 +1,0 @@
-body { margin:0; font-family: Arial, sans-serif; }
-nav ul { display:flex; background:#333; list-style:none; padding:0; }
-nav ul li { flex:1; }
-nav ul li a { display:block; color:#fff; padding:1em; text-decoration:none; text-align:center; }
-@media (max-width:600px) { nav ul { flex-direction:column; } }
