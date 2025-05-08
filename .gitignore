@@ -1,7 +1,14 @@
-# Fichiers et dossiers à ne pas traquer
+# Fichiers système
 .DS_Store
+Thumbs.db
+
+# Archives
 *.zip
-*.rar
-node_modules/
+
+# Fichiers IDE
+.vscode/
 *.log
-.env
+*.tmp
+
+# Node ou autres outils locaux (si utilisés)
+node_modules/
