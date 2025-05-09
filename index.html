@@ -1,0 +1,67 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>e-META – Outil d’aide à la décision</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="favicon.ico" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <img src="eMETA-official-logo.png" alt="e-META Logo" />
+      </a>
+      <nav class="site-nav">
+        <button class="nav-toggle" aria-label="Ouvrir le menu">☰</button>
+        <ul class="nav-list">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="apropos.html">À propos</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Bienvenue sur e-META</h1>
+        <p>L’outil universel d’aide à la décision — synthèses, rapports et maintenant cartes mentales interactives.</p>
+        <a href="#demarrer" class="btn-primary">Commencer</a>
+      </div>
+    </section>
+
+    <section id="demarrer" class="features container">
+      <article class="feature">
+        <h2>Génération de synthèses</h2>
+        <p>Obtenez des résumés clairs et structurés de tout document ou sujet.</p>
+      </article>
+      <article class="feature">
+        <h2>Tableaux de pilotage</h2>
+        <p>Suivez vos indicateurs clés grâce à des dashboards exportables.</p>
+      </article>
+      <article class="feature">
+        <h2>Cartes mentales</h2>
+        <p>Visualisez vos idées sous forme de mind-maps interactives.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 e-META. Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Toggle menu mobile
+    document.querySelector('.nav-toggle').addEventListener('click', () => {
+      document.querySelector('.nav-list').classList.toggle('nav-open');
+    });
+  </script>
+</body>
+</html>
