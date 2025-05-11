@@ -1,0 +1,15 @@
+
+{
+    "home": "Home",
+    "about": "About",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "welcome": "Welcome to e-META",
+    "desc": "Your AI assistant for smart, multilingual, smooth, and personalized decision-making",
+    "whatsapp": "Contact via WhatsApp",
+    "how": "How does e-META work?",
+    "how_desc": "e-META uses a smart form, Make and WhatsApp to generate personalized summaries.",
+    "free": "Is it free?",
+    "free_desc": "A basic version is free. Advanced options will be proposed later.",
+    "about_desc": "e-META is designed as a decision-support tool using GPT-4, WhatsApp, and guided forms to help users clarify their choices in all areas."
+}
