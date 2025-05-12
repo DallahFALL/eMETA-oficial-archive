@@ -1,9 +1,0 @@
-
-<svg width="200" height="60" viewBox="0 0 600 180" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <g>
-    <path d="M50 40 L90 65 V115 L50 140 L10 115 V65 Z" stroke="black" stroke-width="8" fill="none"/>
-    <path d="M50 40 L90 65 M50 40 L10 65 M10 115 L50 140 M90 115 L50 140" stroke="black" stroke-width="8" fill="none"/>
-    <path d="M50 90 L70 102 V125" stroke="black" stroke-width="8" fill="none"/>
-  </g>
-  <text x="120" y="120" font-family="Arial, sans-serif" font-size="80" fill="black" font-weight="bold">e-META</text>
-</svg>
