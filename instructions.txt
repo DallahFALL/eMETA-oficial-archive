@@ -1,4 +1,0 @@
-1. Supprimer anciens fichiers
-2. Télécharger ce pack
-3. Activer GitHub Pages
-4. Vérifier https://e-meta.app
