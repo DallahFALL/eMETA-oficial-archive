@@ -66,5 +66,8 @@ footer {
   padding: 1em;
   text-align: center;
 }
-@media (max-width: 768px) { nav { display: none; } .menu-toggle { display: block; } }).
-.open { display: flex; flex-direction: column; }.
+@media (max-width: var(--breakpoint-md)) {
+  .features { flex-direction: column; }
+  .features div { max-width: 100%; margin: .5em 0; }
+}
+
