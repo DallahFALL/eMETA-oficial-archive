@@ -61,3 +61,4 @@ footer {
   text-align: center;
 }
 @media (max-width: 768px) { nav { display: none; } .menu-toggle { display: block; } }).
+.open { display: flex; flex-direction: column; }.
