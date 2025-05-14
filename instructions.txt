@@ -1,0 +1,18 @@
+INSTRUCTIONS D'INSTALLATION DE e-META (version GitHub Pages)
+
+1. Décompressez ce fichier ZIP.
+2. Connectez-vous à GitHub.
+3. Créez un nouveau dépôt public nommé : eMETA-official-archive
+4. Uploadez les fichiers suivants à la racine :
+    - index.html
+    - style.css
+    - README.md
+    - instructions.txt
+    - eMETA-official-logo.svg
+5. Activez GitHub Pages dans les paramètres du dépôt (branch: main / root).
+6. Configurez le domaine personnalisé si besoin (e.g. e-meta.app avec CNAME).
+
+✅ Votre site e-META sera en ligne à l’adresse :
+https://<votre-utilisateur>.github.io/eMETA-official-archive
+ou
+https://e-meta.app si domaine connecté.
