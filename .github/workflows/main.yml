@@ -19,3 +19,34 @@ jobs:
 
       - name: Run tests
         run: npm test
+name: Minify CSS & JS
+
+on:
+  push:
+    paths:
+      - 'style.css'
+      - 'script.js'
+
+jobs:
+  minify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Install tools
+        run: npm install -g clean-css-cli terser
+
+      - name: Minify CSS
+        run: cleancss -o style.min.css style.css
+
+      - name: Minify JS
+        run: terser script.js -o script.min.js
+
+      - name: Commit minified files
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git add style.min.css script.min.js
+          git commit -m "Auto-minify CSS & JS"
+          git push
