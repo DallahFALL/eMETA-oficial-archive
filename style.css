@@ -70,4 +70,7 @@ footer {
   .features { flex-direction: column; }
   .features div { max-width: 100%; margin: .5em 0; }
 }
+.hidden {
+    display: none;
+}
 
