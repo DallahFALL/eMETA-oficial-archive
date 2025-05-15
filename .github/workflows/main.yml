@@ -50,3 +50,6 @@ jobs:
           git add style.min.css script.min.js
           git commit -m "Auto-minify CSS & JS"
           git push
+git add .github/workflows/main.yml
+git commit -m "Ajout du workflow de minification"
+git push origin main
