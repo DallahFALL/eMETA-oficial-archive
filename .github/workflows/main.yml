@@ -53,3 +53,5 @@ jobs:
 git add .github/workflows/main.yml
 git commit -m "Ajout du workflow de minification"
 git push origin main
+git add .
+git commit -m "Initialisation du projet et ajout du workflow"
