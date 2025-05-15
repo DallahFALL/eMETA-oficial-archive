@@ -1,6 +1,10 @@
-name: Node.js CI
+name: Build and Minify
 
-on: [push]
+on:
+  push:
+    paths:
+      - 'style.css'
+      - 'script.js'
 
 jobs:
   build:
@@ -19,15 +23,7 @@ jobs:
 
       - name: Run tests
         run: npm test
-name: Minify CSS & JS
 
-on:
-  push:
-    paths:
-      - 'style.css'
-      - 'script.js'
-
-jobs:
   minify:
     runs-on: ubuntu-latest
     steps:
@@ -50,8 +46,3 @@ jobs:
           git add style.min.css script.min.js
           git commit -m "Auto-minify CSS & JS"
           git push
-git add .github/workflows/main.yml
-git commit -m "Ajout du workflow de minification"
-git push origin main
-git add .
-git commit -m "Initialisation du projet et ajout du workflow"
