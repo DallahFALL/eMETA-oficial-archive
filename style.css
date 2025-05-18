@@ -16,10 +16,10 @@ header {
   align-items: center;
 }
 .logo {
-  height: 80px;
+  height: 100px;
 }
 .burger {
-  font-size: 24px;
+  font-size: 28px;
   background: none;
   border: none;
   cursor: pointer;
@@ -56,6 +56,10 @@ nav ul li a {
   border-radius: 8px;
   font-weight: bold;
 }
+.container {
+  max-width: 960px;
+  margin: auto;
+}
 
 /* Responsive styles */
 @media (max-width: 768px) {
@@ -65,9 +69,6 @@ nav ul li a {
   nav ul {
     flex-direction: column;
     display: none;
-  }
-  nav.open ul {
-    display: flex;
   }
   nav#menu.open ul {
     display: flex;
