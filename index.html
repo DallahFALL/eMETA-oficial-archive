@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-META</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <img src="images/eMETA-official-logo.svg.png" alt="e-META Logo" class="logo" />
+        <nav class="nav-links" id="navLinks">
+            <a href="#home" data-i18n="home">Accueil</a>
+            <a href="#faq" data-i18n="faq">FAQ</a>
+            <a href="#about" data-i18n="about">À propos</a>
+            <a href="#contact" data-i18n="contact">Contact</a>
+        </nav>
+        <button class="burger" onclick="toggleMenu()">☰</button>
+        <div class="lang-switch">
+            <button onclick="setLanguage('fr')">FR</button> /
+            <button onclick="setLanguage('en')">EN</button>
+        </div>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1 data-i18n="welcome">Bienvenue sur e-META</h1>
+            <p data-i18n="desc">Votre assistant IA pour la prise de décision intelligente, multilingue, fluide et personnalisable.</p>
+            <a class="cta" href="https://wa.me/221777644346" target="_blank" data-i18n="contact_whatsapp">Contacter via WhatsApp</a>
+        </section>
+        <section id="faq">
+            <h2 data-i18n="faq_title">Foire aux Questions</h2>
+            <p data-i18n="faq_text">Des réponses claires à vos questions fréquentes.</p>
+        </section>
+        <section id="about">
+            <h2 data-i18n="about_title">À propos de e-META</h2>
+            <p data-i18n="about_text">e-META est un assistant intelligent d'aide à la décision.</p>
+        </section>
+        <section id="contact">
+            <h2 data-i18n="contact_title">Contact</h2>
+            <p data-i18n="contact_text">Vous pouvez nous écrire à walocom@orange.sn.</p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
