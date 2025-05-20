@@ -1,0 +1,1 @@
+Version corrigée responsive mobile/web e-META avec multilingue actif.

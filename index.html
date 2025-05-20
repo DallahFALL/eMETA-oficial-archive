@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>e-META</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/eMETA-official-logo.svg" alt="e-META Logo" />
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home" class="nav-link" data-key="home">Accueil</a></li>
+                <li><a href="#faq" class="nav-link" data-key="faq">FAQ</a></li>
+                <li><a href="#about" class="nav-link" data-key="about">À propos</a></li>
+            </ul>
+        </nav>
+        <div class="language-switch">
+            <button onclick="changeLanguage('fr')">FR</button> /
+            <button onclick="changeLanguage('en')">EN</button>
+        </div>
+    </header>
+
+    <main id="home" class="centered">
+        <h1 data-key="welcome">Bienvenue sur e-META</h1>
+        <p data-key="desc">Votre assistant IA pour la prise de décision intelligente, multilingue, fluide et personnalisable.</p>
+        <a href="https://wa.me/221776444346" target="_blank" class="cta" data-key="contact">Contacter via WhatsApp</a>
+    </main>
+
+    <section id="faq" class="centered">
+        <h2 data-key="faq">FAQ</h2>
+        <ul>
+            <li data-key="q1"><strong>Q1 :</strong> Je n'ai pas reçu ma synthèse. Que faire ? Vérifiez votre numéro WhatsApp ou votre adresse e-mail. Contactez notre support via WhatsApp.</li>
+            <li data-key="q2"><strong>Q2 :</strong> Combien de temps faut-il pour recevoir une réponse ? Généralement moins de 5 minutes après l'envoi du formulaire.</li>
+            <li data-key="q3"><strong>Q3 :</strong> Peut-on utiliser e-META gratuitement ? Oui, l'accès de base est gratuit. Des options premium seront proposées ultérieurement.</li>
+            <li data-key="q4"><strong>Q4 :</strong> Puis-je utiliser e-META pour mon entreprise ? Oui, e-META est adapté aux particuliers et aux professionnels.</li>
+        </ul>
+    </section>
+
+    <section id="about" class="centered">
+        <h2 data-key="about">À propos de e-META</h2>
+        <p data-key="about-text">e-META est un assistant IA de prise de décision conçu pour guider les utilisateurs vers la meilleure stratégie possible grâce à l’intelligence artificielle. Il est accessible, multilingue, et personnalisable selon les besoins de chaque secteur d’activité.</p>
+    </section>
+
+    <footer>
+        <p>© 2025 e-META. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
