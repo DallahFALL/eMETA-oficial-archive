@@ -1,24 +1,19 @@
-/* --- Barre de navigation principale --- */
 nav {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 100%;
-    margin-top: 10px;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    gap: 20px; /* Espacement cohérent */
 }
 
 nav ul {
     display: flex;
     justify-content: center;
-    align-items: center;
     list-style: none;
     padding: 0;
-    margin: 0;
 }
 
 nav ul li {
-    margin: 0 15px;
+    margin: 0 15px; /* Espacement entre les éléments */
 }
 
 /* --- Responsive Mobile --- */
