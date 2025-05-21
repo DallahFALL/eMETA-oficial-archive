@@ -1,58 +1,43 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    text-align: center;
-}
-
-header {
+/* --- Barre de navigation principale --- */
+nav {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-}
-
-.logo img {
-    height: 60px;
-}
-
-.nav-list {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    gap: 20px;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
-}
-
-.nav-list li a {
-    text-decoration: none;
-    color: #007BFF;
-    font-weight: bold;
-}
-
-.language-switch {
+    width: 100%;
     margin-top: 10px;
 }
 
-.cta {
-    display: inline-block;
-    background-color: #25D366;
-    color: white;
-    padding: 12px 25px;
-    border-radius: 5px;
-    text-decoration: none;
-    margin: 20px auto;
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
-main, section {
-    padding: 30px 15px;
+nav ul li {
+    margin: 0 15px;
 }
 
-@media (max-width: 600px) {
-    .nav-list {
+/* --- Responsive Mobile --- */
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+
+    nav ul {
         flex-direction: column;
         align-items: center;
+        width: 100%;
+    }
+
+    nav ul li {
+        margin: 8px 0;
+    }
+
+    .language-switch {
+        margin-top: 10px;
     }
 }
