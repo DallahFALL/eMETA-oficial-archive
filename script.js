@@ -47,3 +47,36 @@ function setLanguage(lang) {
 document.getElementById("btn-fr").addEventListener("click", () => setLanguage("fr"));
 document.getElementById("btn-en").addEventListener("click", () => setLanguage("en"));
 setLanguage("fr");
+// Traductions dynamiques
+const translations = {
+  fr: {
+    home: "Accueil",
+    faq: "FAQ",
+    about: "À propos",
+    contact: "Contacter via WhatsApp"
+  },
+  en: {
+    home: "Home",
+    faq: "FAQ",
+    about: "About",
+    contact: "Contact via WhatsApp"
+  }
+};
+
+function setLanguage(lang) {
+  const keys = document.querySelectorAll("[data-key]");
+  keys.forEach(el => {
+    const key = el.getAttribute("data-key");
+    el.textContent = translations[lang][key];
+  });
+}
+
+document.getElementById("btn-fr").addEventListener("click", () => setLanguage("fr"));
+document.getElementById("btn-en").addEventListener("click", () => setLanguage("en"));
+setLanguage("fr");
+
+// Menu mobile
+function toggleMenu() {
+  const nav = document.getElementById("nav");
+  nav.classList.toggle("active");
+}
