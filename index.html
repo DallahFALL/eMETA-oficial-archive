@@ -22,7 +22,7 @@
 <body>
   <header>
     <div class="logo">
-      <img src="images/eMETA-official-logo.svg.png" alt="e-META Logo" style="height: 100px; margin-left: 20px;">
+      <img src="images/eMETA-official-logo.svg" alt="e-META Logo" height="50" />
     </div>
     <nav>
       <ul class="nav-list">
@@ -76,6 +76,33 @@
     function toggleAnswer(id) {
       const answer = document.getElementById(id);
       answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+    }
+
+    const translations = {
+      fr: {
+        r1: "Vérifiez votre numéro WhatsApp ou votre adresse e-mail. Contactez notre support via WhatsApp.",
+        r2: "Généralement moins de 5 minutes après l'envoi du formulaire.",
+        r3: "Oui, l'accès de base est gratuit. Des options premium seront proposées ultérieurement.",
+        r4: "Oui, e-META est adapté aux particuliers et aux professionnels."
+      },
+      en: {
+        r1: "Check your WhatsApp number or email address. Contact our support via WhatsApp.",
+        r2: "Usually less than 5 minutes after submitting the form.",
+        r3: "Yes, basic access is free. Premium options will be offered later.",
+        r4: "Yes, e-META is suitable for both individuals and professionals."
+      }
+    };
+
+    document.getElementById('btn-fr').addEventListener('click', () => switchLang('fr'));
+    document.getElementById('btn-en').addEventListener('click', () => switchLang('en'));
+
+    function switchLang(lang) {
+      document.querySelectorAll('[data-key]').forEach(el => {
+        const key = el.getAttribute('data-key');
+        if (translations[lang] && translations[lang][key]) {
+          el.textContent = translations[lang][key];
+        }
+      });
     }
   </script>
 </body>
