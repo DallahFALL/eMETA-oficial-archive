@@ -1,106 +1,76 @@
 body {
   margin: 0;
-  padding: 0;
   font-family: Arial, sans-serif;
   text-align: center;
-  background-color: #fff;
-  color: #000;
 }
-
 header {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
+  padding: 10px 0;
 }
-
-.logo img {
-  height: 60px;
-}
-
-.nav {
-  display: flex;
-  align-items: center;
-}
-
 .nav-list {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
   list-style: none;
-  margin: 0;
   padding: 0;
-  gap: 20px;
+  margin: 10px 0;
 }
-
 .nav-list li a {
   text-decoration: none;
-  color: #000;
   font-weight: bold;
+  color: black;
 }
-
-.burger {
-  display: none;
-  font-size: 24px;
-  cursor: pointer;
-  margin-right: 20px;
+.logo {
+  margin-bottom: 10px;
 }
-
 .lang-buttons {
-  display: flex;
-  gap: 10px;
+  text-align: center;
+  margin-top: 5px;
 }
-
 .lang-buttons button {
+  margin: 0 5px;
   padding: 6px 12px;
+  border-radius: 5px;
+  border: none;
   background-color: #007BFF;
   color: white;
-  border: none;
-  border-radius: 4px;
   cursor: pointer;
 }
-
-main, section {
-  padding: 20px 15px;
-}
-
 .cta {
+  display: inline-block;
   background-color: #25D366;
   color: white;
-  padding: 12px 24px;
-  text-decoration: none;
+  padding: 12px 25px;
   border-radius: 5px;
-  display: inline-block;
-  margin-top: 20px;
+  text-decoration: none;
+  margin: 20px auto;
 }
-
-.centered {
+.faq-item {
+  margin-bottom: 10px;
+  text-align: left;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.question {
+  cursor: pointer;
+  font-weight: bold;
+}
+.answer {
+  display: none;
+  color: #007BFF;
+  animation: fade 0.3s ease-in-out;
+}
+h2 {
   text-align: center;
 }
-
-.answer {
-  color: #007BFF;
-  font-style: italic;
-}
-
 footer {
   background-color: #222;
   color: white;
   padding: 15px;
+  font-size: 14px;
 }
-
-@media (max-width: 768px) {
-  .nav-list {
-    display: none;
-    flex-direction: column;
-    gap: 10px;
-    margin-top: 10px;
-  }
-
-  .nav-list.active {
-    display: flex;
-  }
-
-  .burger {
-    display: block;
-  }
+@keyframes fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
